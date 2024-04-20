@@ -1,0 +1,64 @@
+.image {
+  display: flex;
+  align-items: center;
+  gap: 2%;
+  margin: 2rem 0;
+}
+.box{
+    width: 100%;
+    overflow: hidden;
+}
+.imgBox{
+    width: 15rem;
+    object-fit: contain;
+    border-radius: 1rem;
+}
+@media screen and (max-width: 1300px) {
+  .image{
+   gap: 1%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  
+}
+ @media screen and (max-width: 750px) {
+    .popular {
+      overflow-x: scroll;
+    }
+  .image {
+    gap: 1rem;
+  }
+}
+@media screen and (min-width: 750px) and (max-width: 950px) {
+  .image {
+    gap: 2;
+  }
+} 
+.populatHeader{
+    display: flex;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.swich_card{
+    display: flex;
+    border: 1px solid gray;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5rem;
+    margin-right: 1rem;
+    overflow: hidden;
+}
+.btn{
+    width: 4rem;
+    height: 2.5rem;
+    border: none;
+    font-weight: bolder;
+    background-color: transparent;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.active{
+    background-color: antiquewhite;
+}

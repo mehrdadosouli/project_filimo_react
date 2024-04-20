@@ -1,0 +1,81 @@
+.container {
+  height: 3rem;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5rem;
+}
+.right,.rightdesk {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.left {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.logo {
+  width: 4.5rem;
+  user-select: none;
+}
+.search {
+  cursor: pointer;
+}
+.searchInput {
+  display: none;
+  position: absolute;
+  top: 12%;
+  left: 53%;
+}
+.searchInput input {
+  padding: 0.25rem;
+  outline: none;
+}
+.searchmenu{
+display: none;
+}
+
+span {
+  color: aliceblue;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  transition: color 0.5s;
+  font-size: 1rem;
+}
+a:hover {
+  color: rgb(72, 255, 0);
+}
+.icon {
+  color: orange;
+  margin: 0.25rem;
+  width: 1rem;
+}
+@media screen and (max-width: 950px) {
+  .container {
+    padding: 0 2rem;
+  }
+}
+@media screen and (max-width: 680px) {
+    
+  .container{
+    justify-content: space-between;
+  }
+  .searchmenu{
+    display: flex;
+  }
+ .rightdesk{
+    display: none;
+ }
+}

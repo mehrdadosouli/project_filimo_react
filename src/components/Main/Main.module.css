@@ -1,0 +1,47 @@
+.container{
+    width: 100%;    
+    min-height: 633px;
+    background-size: cover;
+    background-position: center;
+}
+.contain{
+    background: linear-gradient(rgba(0, 0, 0, 0),rgb(0, 0, 0));
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    margin:auto;
+}
+
+.description{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.header{
+    color: orange;
+}
+h1{
+    color: white;
+    font-size: 3rem;
+    margin: 1rem 0;
+}
+.btn{
+    background-color: rgb(109, 134, 71, 57);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    margin-top: 1.5rem;
+}
+@media screen and (max-width:680px) {
+    .description{
+        flex-direction: column;
+    }
+}
