@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'moraba';
+    src: url('../fonts/Morabba-Light.woff2');
+}
+@font-face {
+    font-family: 'morabaBold';
+    src: url('../fonts/Morabba-Bold.woff2');
+}
+@font-face {
+    font-family: 'poppin';
+    src: url('../fonts/Poppins-Black.ttf');
+}
+@font-face {
+    font-family: 'poppinBold';
+    src: url('../fonts/Poppins-Bold.ttf');
+}
+@font-face {
+    font-family: 'iran';
+    src: url('../fonts/IRANSans.ttf');
+}

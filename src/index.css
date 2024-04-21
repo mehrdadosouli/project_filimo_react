@@ -10,6 +10,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+button,span{
+  font-family: 'moraba';
+}
 
 html{
   font-size: 62.5%;
@@ -20,9 +23,44 @@ html{
 body{
   box-sizing: inherit;
   font-size: 1.6rem;
+  font-family: 'poppin';
 }
 
 .containers{
   max-width:80% ;
   margin: auto;
+}
+
+
+@layer base {
+  @font-face {
+    font-family: 'moraba';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/Morabba-Medium.woff2') format('woff2');
+  };
+  @font-face {
+    font-family: 'morabaBold';
+    font-style: bold;
+    font-weight: 800;
+    src: url('./fonts/Morabba-Bold.woff2') format('woff2');
+  };
+  @font-face {
+    font-family: 'poppin';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/Poppins-Black.ttf') format('ttf');
+  };
+  @font-face {
+    font-family: 'poppinBold';
+    font-style: normal;
+    font-weight: bolder;
+    src: url('./fonts/Poppins-SemiBold.ttf') format('ttf');
+  };
+  @font-face {
+    font-family: 'iran';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/IRANSans_Medium.ttf') format('ttf');
+  };
 }
