@@ -12,6 +12,7 @@
 }
 button,span{
   font-family: 'moraba';
+  font-size: 1.6rem;
 }
 
 html{
@@ -22,7 +23,7 @@ html{
 
 body{
   box-sizing: inherit;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-family: 'poppin';
 }
 
@@ -63,4 +64,16 @@ body{
     font-weight: 400;
     src: url('./fonts/IRANSans_Medium.ttf') format('ttf');
   };
+}
+.slick-next {
+  right: -2% !important;
+}
+.slick-prev {
+  left: -2% !important;
+}
+
+@media (max-width: 400px) {
+  .slick-slide img {
+    width: 100vw;
+  }
 }
