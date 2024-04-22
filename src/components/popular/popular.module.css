@@ -6,11 +6,10 @@
 }
 .box{
     width: 100%;
-    overflow: hidden;
     margin-bottom: 2rem;
 }
 .imgBox{
-    width: 15rem;
+    min-width: 15rem;
     object-fit: contain;
     border-radius: 1rem;
 }

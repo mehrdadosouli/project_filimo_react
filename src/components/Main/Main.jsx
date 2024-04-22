@@ -26,7 +26,6 @@ export default function Main() {
         {fadeImages.map((item,index) => (
           <div key={index} className={styles.container} style={{backgroundImage: `url(${item.url})`}}>
             <div className={styles.contain}>
-
                  <span className={styles.header}>با فیلیمو بیوقفه فیلم ببین</span>
                  <h1>کنترل همیشه دست توست</h1>
                  <div className={styles.description}>

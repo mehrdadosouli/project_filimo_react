@@ -42,7 +42,7 @@ function Popular() {
               <button className={`${styles.btn} ${swich=='فیلم' ? styles.active : ''}`} onClick={(e) => setSwitch(e.target.innerText)}>فیلم</button>
             </div>
         </div>
-      <div className={`${styles.image} ${styles.popular}`}>
+      <div className={`${styles.image} ${styles.popular} overflow-x-scroll lg:overflow-x-hidden`}>
         {
             swich =='سریال' ?
             <Box item={item} /> :

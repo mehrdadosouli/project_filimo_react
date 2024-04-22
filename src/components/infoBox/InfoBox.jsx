@@ -1,10 +1,10 @@
 export default function InfoBox({image,title,author,subject,ekran}) {
   return (
-    <div className='flex bg-[rgba(255,255,255,.06)] boxFild my-1'>
-            <div className="overflow-hidden ml-20">
+    <div className='flex justify-between bg-[rgba(255,255,255,.06)] lg:boxFild boxFildsm my-1'>
+            <div className="overflow-hidden lg:ml-20 md-20 ml-10">
                 <img src={image} className="w-64 rounded-lg " alt="photo" />
             </div>
-        <div className='flex flex-col gap-10 justify-between items-start ml-40'>
+        <div className='flex flex-col lg:gap-10 justify-between items-start sm:ml-40'>
             <span>{title}</span>
             <span>{author}</span>
             <div className="flex gap-14">

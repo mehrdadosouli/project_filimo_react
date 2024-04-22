@@ -12,13 +12,13 @@ export default function OnlineCinema() {
     <div className='py-10 bg-box'>
         <div className='containers flex flex-col gap-10'>
             <h3 className='text-center my-5 font-morabaBold'>سینما آنلاین فیلیمو</h3>
-            <div className='flex justify-center gap-60 items-center [&>*]:text-2xl [&>*]:text-gray-400'>
+            <div className='flex md:flex-row flex-col justify-center md:gap-60 gap-20 items-center [&>*]:text-2xl [&>*]:text-gray-400'>
                 <span className='card relative'>فیلم‌های روز سینمای ایران</span>
                 <span className='card relative'>۸ ساعت زمان برای مشاهده فیلم در هر کجا</span>
                 <span className='card relative'>خرید یک بلیت برای تماشا همراه با همه خانواده</span>
             </div>
             {
-                films.length && <div className='flex flex-wrap justify-center max-h-[70rem] overflow-y-scroll gap-10'>{films.map(elem=><InfoBox key={elem.id} image={elem.image} title={elem.title} author={elem.author} subject={elem.subject} ekran={elem.ekran} />) }</div>
+                films.length && <div className='flex lg:flex-row flex-col lg:flex-wrap lg:justify-center lg:max-h-[70rem] lg:overflow-y-scroll gap-10'>{films.map(elem=><InfoBox key={elem.id} image={elem.image} title={elem.title} author={elem.author} subject={elem.subject} ekran={elem.ekran} />) }</div>
             }
         </div>
     </div>
