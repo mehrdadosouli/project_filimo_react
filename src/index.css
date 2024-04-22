@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 *,
 *::before,
 *::after {
@@ -10,64 +9,87 @@
   margin: 0;
   box-sizing: border-box;
 }
-button,span{
-  font-family: 'moraba';
+button,
+span {
+  font-family: "moraba";
   font-size: 1.6rem;
 }
 
-html{
+html {
   font-size: 62.5%;
   box-sizing: border-box;
   direction: rtl;
 }
 
-body{
+body {
   box-sizing: inherit;
   font-size: 1.8rem;
-  font-family: 'poppin';
+  font-family: "poppin";
   background-color: rgb(21, 21, 21);
   color: white;
 }
 
-.containers{
-  max-width:80% ;
+.containers {
+  max-width: 80%;
   margin: auto;
 }
-.slick-dots li button:before{
+.slick-dots li button:before {
   color: white !important;
+}
+.card::before {
+  content: url("../src/photo/ok.png");
+  position: absolute;
+  right: -3rem;
+  height: 15px;
+  width: 15px;
+  background-color: transparent;
 }
 
 @layer base {
   @font-face {
-    font-family: 'moraba';
+    font-family: "moraba";
     font-style: normal;
     font-weight: 400;
-    src: url('./fonts/Morabba-Medium.woff2') format('woff2');
-  };
+    src: url("./fonts/Morabba-Medium.woff2") format("woff2");
+  }
   @font-face {
-    font-family: 'morabaBold';
+    font-family: "morabaBold";
     font-style: bold;
     font-weight: 800;
-    src: url('./fonts/Morabba-Bold.woff2') format('woff2');
-  };
+    src: url("./fonts/Morabba-Bold.woff2") format("woff2");
+  }
   @font-face {
-    font-family: 'poppin';
+    font-family: "poppin";
     font-style: normal;
     font-weight: 400;
-    src: url('./fonts/Poppins-Black.ttf') format('ttf');
-  };
+    src: url("./fonts/Poppins-Black.ttf") format("ttf");
+  }
   @font-face {
-    font-family: 'poppinBold';
+    font-family: "poppinBold";
     font-style: normal;
     font-weight: bolder;
-    src: url('./fonts/Poppins-SemiBold.ttf') format('ttf');
-  };
+    src: url("./fonts/Poppins-SemiBold.ttf") format("ttf");
+  }
   @font-face {
-    font-family: 'iran';
+    font-family: "iran";
     font-style: normal;
     font-weight: 400;
-    src: url('./fonts/IRANSans_Medium.ttf') format('ttf');
-  };
+    src: url("./fonts/IRANSans_Medium.ttf") format("ttf");
+  }
+}
+@layer utilities {
+  .boxFild {
+    width: calc(50% - 20px);
+    backdrop-filter: blur(32px);
+    padding: 1.5rem;
+    overflow: hidden;
+    border-radius: 2rem;
+  }
+  .bg-box {
+    background: url("https://www.filimo.com/assets/web/ui/img-Q6UiSiS9EH9qTbGpHN8xLQ/campaigns/nosub-v_new/bg-cinama.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }
 .slick-next {
   right: -2% !important;
