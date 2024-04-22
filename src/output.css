@@ -697,6 +697,10 @@ video {
   display: none;
 }
 
+.max-h-\[70rem\] {
+  max-height: 70rem;
+}
+
 .w-64 {
   width: 16rem;
 }
@@ -737,6 +741,10 @@ video {
   gap: 2.5rem;
 }
 
+.gap-14 {
+  gap: 3.5rem;
+}
+
 .gap-5 {
   gap: 1.25rem;
 }
@@ -745,28 +753,12 @@ video {
   gap: 15rem;
 }
 
-.gap-40 {
-  gap: 10rem;
-}
-
-.gap-20 {
-  gap: 5rem;
-}
-
-.gap-16 {
-  gap: 4rem;
-}
-
-.gap-1 {
-  gap: 0.25rem;
-}
-
-.gap-14 {
-  gap: 3.5rem;
-}
-
 .overflow-hidden {
   overflow: hidden;
+}
+
+.overflow-y-scroll {
+  overflow-y: scroll;
 }
 
 .rounded-2xl {

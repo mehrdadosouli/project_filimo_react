@@ -1,6 +1,6 @@
 export default function InfoBox({image,title,author,subject,ekran}) {
   return (
-    <div className='flex my-20 w-calc(50%-20px) bg-[rgba(255,255,255,.06)] boxFild'>
+    <div className='flex bg-[rgba(255,255,255,.06)] boxFild my-1'>
             <div className="overflow-hidden ml-20">
                 <img src={image} className="w-64 rounded-lg " alt="photo" />
             </div>

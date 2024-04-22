@@ -79,11 +79,12 @@ body {
 }
 @layer utilities {
   .boxFild {
-    width: calc(50% - 20px);
+    width: calc(45% - 20px);
     backdrop-filter: blur(32px);
     padding: 1.5rem;
     overflow: hidden;
     border-radius: 2rem;
+    box-shadow: 0 0 1px 1px white;
   }
   .bg-box {
     background: url("https://www.filimo.com/assets/web/ui/img-Q6UiSiS9EH9qTbGpHN8xLQ/campaigns/nosub-v_new/bg-cinama.png");
