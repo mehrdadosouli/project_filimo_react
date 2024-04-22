@@ -6,6 +6,7 @@ import HowToUse from './howToUse/HowToUse'
 import FreeSection from './freeSection/FreeSection'
 import ChildrenSection from './ChildrenSection/ChildrenSection'
 import OnlineCinema from './onlineCinema/OnlineCinema'
+import Footer from './footer/Footer'
 export default function MainApp() {
   return (
     <>
@@ -16,6 +17,7 @@ export default function MainApp() {
         <FreeSection />
         <ChildrenSection />
         <OnlineCinema />
+        <Footer />
     </>
   )
 }

@@ -91,6 +91,9 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
   }
+  .bg-footer{
+    background: radial-gradient(100% 410.68% at 100% 100%,rgba(0,0,0,0) 0,rgba(0,29,13,.54) 53.55%,rgba(0,0,0,0) 100%);
+  }
 }
 .slick-next {
   right: -2% !important;
