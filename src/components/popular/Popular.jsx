@@ -35,15 +35,13 @@ function Popular() {
 
   return (
     <div className='containers'>
-      <div>
         <div className={styles.populatHeader}>
-            <h2>محبوب ترین های فیلیمو</h2>
+            <h2 className="font-morabaBold">محبوب ترین های فیلیمو</h2>
             <div className={styles.swich_card}>
-            <button className={`${styles.btn} ${swich=='سریال' ? styles.active : ''}`} onClick={(e) =>setSwitch(e.target.innerText)}>سریال</button>
-            <button className={`${styles.btn} ${swich=='فیلم' ? styles.active : ''}`} onClick={(e) => setSwitch(e.target.innerText)}>فیلم</button>
+              <button className={`${styles.btn} ${swich=='سریال' ? styles.active : ''}`} onClick={(e) =>setSwitch(e.target.innerText)}>سریال</button>
+              <button className={`${styles.btn} ${swich=='فیلم' ? styles.active : ''}`} onClick={(e) => setSwitch(e.target.innerText)}>فیلم</button>
             </div>
         </div>
-      </div>
       <div className={`${styles.image} ${styles.popular}`}>
         {
             swich =='سریال' ?

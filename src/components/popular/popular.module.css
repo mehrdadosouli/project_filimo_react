@@ -7,6 +7,7 @@
 .box{
     width: 100%;
     overflow: hidden;
+    margin-bottom: 2rem;
 }
 .imgBox{
     width: 15rem;
@@ -42,6 +43,7 @@
 
 .swich_card{
     display: flex;
+    width: 9rem;
     border: 1px solid gray;
     justify-content: space-between;
     align-items: center;
@@ -50,15 +52,18 @@
     overflow: hidden;
 }
 .btn{
-    width: 4rem;
-    height: 2.5rem;
+    font-size: 1.3rem;
+    width: 50%;
+    height: 1.9rem;
     border: none;
-    font-weight: bolder;
     background-color: transparent;
 }
 .btn:hover{
     cursor: pointer;
 }
 .active{
-    background-color: antiquewhite;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    border-radius: 5rem;
+    border-radius: 5rem;
 }

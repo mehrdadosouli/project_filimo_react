@@ -5,7 +5,7 @@ import { MdOutlineVideogameAsset } from "react-icons/md";
 
 function HowToUse() {
   return (
-    <div className='containers flex md:flex-row flex-col md:items-center  gap-5'>
+    <div className='containers flex md:flex-row flex-col md:items-center gap-5 py-14'>
         <div id='right'>
             <div className='md:hidden'>
                 <h4 className='my-5 font-poppinBold'>تماشای فیلیمو با همه دستگاه‌ها</h4>

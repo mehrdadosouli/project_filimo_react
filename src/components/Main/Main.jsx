@@ -24,7 +24,7 @@ export default function Main() {
     <>
       <Fade>
         {fadeImages.map((item,index) => (
-              <div key={index} className={styles.container} style={{backgroundImage: `url(${item.url})`}}>
+          <div key={index} className={styles.container} style={{backgroundImage: `url(${item.url})`}}>
             <div className={styles.contain}>
 
                  <span className={styles.header}>با فیلیمو بیوقفه فیلم ببین</span>
