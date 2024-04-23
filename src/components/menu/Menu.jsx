@@ -23,7 +23,6 @@ export default function Menu() {
         </div>
         <div className={styles.left}>
         <span className={`${styles.search} ${styles.searchmenu}`} onClick={searchHandler}><LiaSearchSolid className={styles.icon}/> جستجو</span>
-            <span className={styles.buy}><Link to="/اشتراک"><RiVideoLine className={styles.icon}/> خرید اشتراک</Link></span>
             <span className={styles.login}><Link to="/ورود"><CiLogin className={styles.icon}/>ورود</Link></span>
         </div>
         <div className={styles.searchInput} id='searchInput'>

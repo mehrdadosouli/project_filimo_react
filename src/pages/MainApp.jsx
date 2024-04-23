@@ -9,7 +9,7 @@ import OnlineCinema from "../components/onlineCinema/OnlineCinema";
 import Footer from "../components/footer/Footer";
 export default function MainApp() {
   return (
-    <div style={{backgroundColor:'rgb(21, 21, 21)'}}>
+    <div style={{backgroundColor:'rgb(21, 21, 21)',color:'white'}}>
       <Menu />
       <Main />
       <Popular />
