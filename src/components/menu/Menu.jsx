@@ -11,7 +11,6 @@ import Search from "./Search.jsx"
 export default function Menu() {
   
   return (
-    <div>
       <div className={styles.container}>
         <div className={styles.right}>
          <Link to='/'><img className={styles.logo} src="https://www.filimo.com/assets/web/ui/img-INpqFqn7oe6Ab4tcD3g/filimo/fa-filimo-dark-logo.svg" alt="" /></Link>
@@ -31,6 +30,5 @@ export default function Menu() {
           <Search />
         </div>
       </div>
-    </div>
   )
 }
