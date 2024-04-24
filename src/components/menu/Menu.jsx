@@ -13,7 +13,7 @@ export default function Menu() {
   return (
       <div className={styles.container}>
         <div className={styles.right}>
-         <Link to='/'><img className={styles.logo} src="https://www.filimo.com/assets/web/ui/img-INpqFqn7oe6Ab4tcD3g/filimo/fa-filimo-dark-logo.svg" alt="" /></Link>
+         <Link to='/'><img className={styles.logo} src="https://www.filimo.com/assets/web/ui/img-GkcYsvggLCqFYon6MQ/filimo/fa-filimo-dark-logo.svg" alt="" /></Link>
          <div className={`${styles.rightdesk} span`}>
           <span className={`${styles.allfilm} span`}>|</span>
           <span className={`${styles.allfilm} span`}><Link to="/فیلیموتور"><GiCampfire className={styles.icon}/> فیلیموتور</Link></span>
