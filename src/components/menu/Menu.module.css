@@ -37,28 +37,7 @@
   padding: 0.25rem;
   outline: none;
 }
-.searchmenu{
-display: none;
-}
 
-span {
-  color: aliceblue;
-  user-select: none;
-  display: flex;
-  align-items: center;
-}
-
-a {
-  text-decoration: none;
-  color: aliceblue;
-  display: flex;
-  align-items: center;
-  transition: color 0.5s;
-  font-size: 1.6rem;
-}
-a:hover {
-  color: rgb(72, 255, 0);
-}
 .icon {
   color: orange;
   margin: 0.25rem;

@@ -1,0 +1,13 @@
+
+  a {
+    text-decoration: none;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    transition: color 0.5s;
+    font-size: 1.6rem;
+  }
+  a:hover {
+    color: rgb(72, 255, 0);
+  }
+  
